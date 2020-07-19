@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="371f2d34-c042-403f-b399-c0d26c7c035f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ProjectId" id="1euBYIDsmsOUClpVEGQHwMpNZdj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="371f2d34-c042-403f-b399-c0d26c7c035f" name="Default Changelist" comment="" />
+      <created>1595161643410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595161643410</updated>
+      <workItem from="1595161644629" duration="21599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="353" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595176191474">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="353" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595176191474" />
+    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595162073795">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1595162073795" />
+    <state width="374" height="289" key="DatabaseViewActions_Filter" timestamp="1595176208254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="374" height="289" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1595176208254" />
+    <state width="314" height="749" key="HiddenNamespacesPopup" timestamp="1595176035488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="314" height="749" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1595176035488" />
+    <state x="38" y="0" key="SettingsEditor" timestamp="1595161650023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="38" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595161650023" />
+    <state x="257" y="178" key="run.anything.popup" timestamp="1595181306185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="257" y="178" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1595181306185" />
+    <state x="161" y="0" key="scopes" timestamp="1595162028060">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="161" y="0" key="scopes/0.0.1536.824@0.0.1536.824" timestamp="1595162028060" />
+  </component>
+</project>
