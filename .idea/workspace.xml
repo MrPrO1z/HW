@@ -26,7 +26,11 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1euBYIDsmsOUClpVEGQHwMpNZdj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,6 +41,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Open Server\OpenServer\domains\hw\view" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -60,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595161643410</updated>
-      <workItem from="1595161644629" duration="21599000" />
+      <workItem from="1595161644629" duration="28052000" />
     </task>
     <servers />
   </component>
@@ -80,6 +89,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="374" height="289" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1595176208254" />
+    <state x="449" y="30" key="FileChooserDialogImpl" timestamp="1595189124984">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="30" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595189124984" />
     <state width="314" height="749" key="HiddenNamespacesPopup" timestamp="1595176035488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -88,6 +101,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="38" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595161650023" />
+    <state x="316" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595192349385">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="316" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1595192349385" />
     <state x="257" y="178" key="run.anything.popup" timestamp="1595181306185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -96,5 +113,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="161" y="0" key="scopes/0.0.1536.824@0.0.1536.824" timestamp="1595162028060" />
+    <state x="261" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1595192360727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595192360727" />
   </component>
 </project>

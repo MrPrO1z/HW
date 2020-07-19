@@ -27,5 +27,9 @@ h4 {
 
 }
 div {
-    padding: 5px;
+    margin: 5px;
+
+}
+.menu {
+    border: 1px solid blueviolet;
 }
