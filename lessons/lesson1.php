@@ -41,7 +41,9 @@
         ' рейтингов. Тем не менее сериал стал знаковым культурным явлением начала 1990-х. Ежегодно под Сиэтлом' . '
         проходит слёт поклонников Твин Пикса</p>';
     //трогать нельзяS
-      echo '<h1 class="lesson-name">home work #1</h1>';
+    $wrapper00 = '<h1 class="lesson-name">home work #1</h1>';
+
+    printf($content, $wrapper00);
 
     $wrapper0 = '<span class="exercise">Исходник Урока</span>';
 
