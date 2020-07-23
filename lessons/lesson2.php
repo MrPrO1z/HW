@@ -1,107 +1,95 @@
-<html>
-<head>
-    <title>Уроки по PHP</title>
-    <link rel="stylesheet" type="text/css" href="../style.css">
-</head>
-<body>
-<div>
-    <?php
-    include '../view/header.php';
-    //Home work
+<?php
+    $fruits = array (
+        'fruits' => array("a" => "orange", "b" => "banana", "c" => "apple"), //Array
+        'int'    => array(1, 2, 3, 4, 5, 6), //Array
+        'time'   => array("first", 5 => "second", "third"), //Array
+        'test'   => 'test string'
+    );
 
-    /*
-    * 1) посчитать количество повторений в строке выражения Твин Пикс
-    * 2) заменить в строке Твин Пикс на Twin Peaks
-    * 3) посчитать количество символов в строке
-    * 4) посчитать количество символов без пробелов в строке
-    * 5) убрать html-теги (<p>) в строке
-    * 6) вывести строку в браузере как html-код
-    * 7) первое слово "В" в начале тексте должно быть с большой буквы
-    *
-    * каждое задание вывести как заголовок h2 и под ним готовое решение
-    * заголовок h2 - синим цветом
-    * решение - темно-серым
-    * ---------------------------------------------------------------------------------------------------------
-    * !!!!!!!!!!!!!!!!    НАСТРОЙТЬ ГИТ В ШТОРМЕ     !!!!!!!!!!!!!!!!!!!!
-    * !!!!!!!!!!!!! КОД ЧТОБ НЕ ПЕРЕСЕКАЛ ЛИНИЮ ОГРАНИЧЕНИЯ СПАРВА !!!!!!!!!!!!!!!
-    * <?php ДОЛЖНО ОТКРЫВАТЬСЯ ОДИН РАЗ
-    * class="exercise" должен быть посередине и используй любой другой шрифт
-    * class="answer" отступ слева 15px и class="exercise" от 20px
-    * class="lesson-name" сделай курсивом и каждая первая буква заглавная
-    * class="wrapper" сделай рамку и закругли края у рамки на 5px
-    * вывод ответа должен быть реализован функцией printf
-    * комментируй код Сцука что ты делаешь в каждом выполнении задания
-    */
+$stateList = array(
+    'AB'        => 'Alberta',
+    'BC'        => 'British Columbia',
+    'MB'        => 'Manitoba',
+    'NB'        => 'New Brunswick',
+    'NL'        => 'Newfoundland/Labrador',
+    'NS'        => 'Nova Scotia',
+    'NT'        => 'Northwest Territories',
+    'NU'        => 'Nunavut',
+    'ON'        => 'Ontario',
+    'PE'        => 'Prince Edward Island',
+    'QC'        => 'Quebec',
+    'SK'        => 'Saskatchewan',
+    'YT'        => 'Yukon'
+);
 
-    $content = '<div class="wrapper"> %s </div>';
-    //ормально отфармотировать
-    $mainString = '<p>в том же 1990 году стартовал первый телесериал Линча — Твин Пикс. В основе сюжета сериала —'
-        . ' расследование загадочного убийства школьницы Лоры Палмер, произошедшего в небольшом американском городке' .
-        ' Твин Пикс. Сериал пользовался поначалу большим успехом, но уже через год съёмки были свёрнуты из-за низких' .
-        ' рейтингов. Тем не менее сериал стал знаковым культурным явлением начала 1990-х. Ежегодно под Сиэтлом' . '
-        проходит слёт поклонников Твин Пикса</p>';
-    //трогать нельзяS
-    echo '<h1 class="lesson-name">home work #2</h1>';
+$newArray = [];
 
-    $wrapper0 = '<span class="exercise">Исходник Урока</span>';
+foreach ($stateList as $k => $v) {
+    $newArray[str_replace(' ', '_', strtolower($v))] = $k;
+    }
 
-    $wrapper0 .= '<div><h4 class="answer">' . htmlentities($mainString) . '</h4></div>';
-
-    printf($content, $wrapper0);
-
-    $wrapper = '<span class="exercise">1) посчитать количество повторений в строке выражения Твин Пикс</span>';
-    //считаю количество повторений строки
-    $wrapper .= '<div><h4 class="answer">' . substr_count($mainString, 'Твин Пикс') . '</h4></div>';
-
-    printf($content, $wrapper);
-
-    $wrapper2 = '<span class="exercise">2) заменить в строке Твин Пикс на Twin Peaks</span>';
-
-    $wrapper2 .= '<div><h4 class="answer">'
-        . $replace = str_replace('Твин Пикс', 'Twin Peaks', $mainString) . '</h4></div>';
-
-    printf($content, $wrapper2);
-
-    $wrapper3 = '<span class="exercise">3) посчитать количество символов в строке</span>';
-
-    $wrapper3 .= '<div><h4 class="answer">' . strlen($mainString) . '</h4></div>';
-
-    printf($content, $wrapper3);
-
-    $wrapper4 = '<span class="exercise">4) посчитать количество символов без пробелов в строке</span>';
-
-    $replace = str_replace(' ', '', $mainString);
-
-    $wrapper4 .= '<div><h4 class="answer">' . strlen($replace) . '</h4></div>';
-
-    printf($content, $wrapper4);
-
-    $wrapper5 = '<span class="exercise">5) убрать html-теги (&lt;p&gt;) в строке</span>';
-
-    $wrapper5 .= '<div><h4 class="answer">' . $replace2 = str_replace('<p>', '', $mainString)
-            . '</h4></div>';
-
-    printf($content, $wrapper5);
-
-    $wrapper6 = '<span class="exercise">6) вывести строку в браузере как html-код</span>';
-
-    $wrapper6 .= '<div><h4 class="answer">' . htmlentities($mainString) . '</h4></div>';
-
-    printf($content, $wrapper6);
-
-    $wrapper7 = '<span class="exercise">7) первое слово "В" в начале тексте должно быть с большой буквы</span>';
-
-    $textWithoutFirstLetter = mb_substr(strip_tags($mainString), 1);
-
-    $firstLetter = mb_strtoupper(mb_substr(strip_tags($mainString), 0, 1));
-
-    $wrapper7 .= '<div><h4 class="answer">' . $firstLetter . $textWithoutFirstLetter . '</h4></div>';
-
-    printf($content, $wrapper7);
-
-    include '../view/footer.php';
-    ?>
-</div>
-</body>
+$newArray = array_merge($fruits, $stateList);
 
 
+
+/*
+1) Необходимо посчитать кол-во жанров
+Для этого мы можем создать отдельный массив с жанрами и посчитать количество элементов в таком массиве.
+Используйте цикл foreach для перебора массива $discorgaphy, чтобы создать новый массив нужного вам вида.
+2) Необходимо посчитать кол-во исполнителей
+Для этого мы можем создать отдельный массив с исполнителями и посчитать количество элементов в таком массиве
+Используйте цикл foreach для перебора массива $discorgaphy, чтобы создать новый массив нужного вам вида.
+3) Необходимо удалить все альбомы, датированные 2000-ым годом
+4) Необходимо посчитать количество всех альбомов в жанре trip-hop
+Для этого нам нужно сделать массив следующей иерархии:
+---> Жанр (ключ)
+-------------> Название альбома (ключ) ---> подмассив остальных данных (значение)
+Для того чтобы получить такой массив нам нужно через foreach пройтись по массиву $discogrpahy и в рамках выполнения
+итераций цикла сформировать новый массив вида, как указано выше.
+Далее в сформированном массиве нужно через ключ ['trip_hop'] получить подмассив всех альбомов в этом жанре, и посчитать
+кол-во элементов данного массива.
+5) Необходимо посчитать количество всех исполнителей, которые выпускали альбомы в 1994 году
+Для этого нам нужно сделать массив следующей иерархии:
+--> Год выпуска (ключ)
+-------------------------> Исполнитель (ключ) ------> подмассив остальных данных
+6) Необходимо определить альбом с наибольшим и наименьшим количеством композиций и вывести эти две цифры
+7) Необходимо преобразить массив, сгруппировав данные в определенной иерархии
+--> Год выпуска (ключ)
+-------------------------> Жанр (ключ)
+--------------------------------------> Исполнитель+Название альбома (ключ) -----> Кол-во композиций (значение)
+Итого, у нас должен получиться массив с глубиной в три индекса: [год выпуска][жанр][исполнитель+название альбома].
+*/
+$discography = array(
+    array('id' => '12','year' => '1994','band' => 'Pink Floyd','genre' => 'rock','name' => 'Division Bell','count_songs' => '10'),
+    array('id' => '13','year' => '1989','band' => 'Nirvana','genre' => 'grunge','name' => 'Bleach','count_songs' => '11'),
+    array('id' => '14','year' => '1991','band' => 'Nirvana','genre' => 'grunge','name' => 'Nevermind','count_songs' => '13'),
+    array('id' => '15','year' => '1993','band' => 'Nirvana','genre' => 'grunge','name' => 'In Utero','count_songs' => '12'),
+    array('id' => '16','year' => '1991','band' => 'Pearl Jam','genre' => 'grunge','name' => 'Ten','count_songs' => '12'),
+    array('id' => '17','year' => '1993','band' => 'Pearl Jam','genre' => 'grunge','name' => 'Vs.','count_songs' => '10'),
+    array('id' => '18','year' => '1994','band' => 'Pearl Jam','genre' => 'grunge','name' => 'Vitalogy','count_songs' => '12'),
+    array('id' => '19','year' => '1996','band' => 'Pearl Jam','genre' => 'grunge','name' => 'No Code','count_songs' => '9'),
+    array('id' => '20','year' => '1993','band' => 'Radiohead','genre' => 'rock','name' => 'Pablo Honey','count_songs' => '12'),
+    array('id' => '21','year' => '1995','band' => 'Radiohead','genre' => 'rock','name' => 'The Bends','count_songs' => '12'),
+    array('id' => '22','year' => '1997','band' => 'Radiohead','genre' => 'rock','name' => 'OK Computer','count_songs' => '1997'),
+    array('id' => '23','year' => '2000','band' => 'Radiohead','genre' => 'rock','name' => 'Kid A ','count_songs' => '14'),
+    array('id' => '24','year' => '1994','band' => 'Portishead','genre' => 'trip-hop','name' => 'Dummy','count_songs' => '8'),
+    array('id' => '25','year' => '1997','band' => 'Portishead','genre' => 'trip-hop','name' => 'Portishead','count_songs' => '9'),
+    array('id' => '26','year' => '1991','band' => 'Massive Attack','genre' => 'trip-hop','name' => 'Blue Lines','count_songs' => '12'),
+    array('id' => '27','year' => '1994','band' => 'Massive Attack','genre' => 'trip-hop','name' => 'Protection','count_songs' => '15'),
+    array('id' => '28','year' => '1998','band' => 'Massive Attack','genre' => 'trip-hop','name' => 'Mezzanine','count_songs' => '9'),
+    array('id' => '29','year' => '1995','band' => 'Tricky','genre' => 'trip-hop','name' => 'Maxinquaye','count_songs' => '11'),
+    array('id' => '30','year' => '1998','band' => 'Tricky','genre' => 'trip-hop','name' => 'Angels with Dirty Faces','count_songs' => '10'),
+    array('id' => '31','year' => '1993','band' => 'The Roots','genre' => 'hip-hop','name' => 'Organix!','count_songs' => '11'),
+    array('id' => '32','year' => '1995','band' => 'The Roots','genre' => 'hip-hop','name' => 'From the Ground Up','count_songs' => '13'),
+    array('id' => '33','year' => '1996','band' => 'The Roots','genre' => 'hip-hop','name' => 'Illadelph Halflife','count_songs' => '15'),
+    array('id' => '34','year' => '1999','band' => 'The Roots','genre' => 'hip-hop','name' => 'Things Fall Apart','count_songs' => '14'),
+    array('id' => '35','year' => '1999','band' => 'The Roots','genre' => 'hip-hop','name' => 'The Legendary','count_songs' => '7'),
+    array('id' => '36','year' => '1994','band' => 'Oasis','genre' => 'rock','name' => 'Definitely Maybe','count_songs' => '12'),
+    array('id' => '37','year' => '1995','band' => 'Oasis','genre' => 'rock','name' => '(What\'s the Story) Morning Glory?','count_songs' => '11'),
+    array('id' => '38','year' => '1997','band' => 'Oasis','genre' => 'rock','name' => 'Be Here Now','count_songs' => '10'),
+    array('id' => '39','year' => '2000','band' => 'Oasis','genre' => 'rock','name' => 'Standing on the Shoulder of Giants','count_songs' => '13')
+);
+
+echo '<pre>'; print_r($discography); die;
+
+?>
