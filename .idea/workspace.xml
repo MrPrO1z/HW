@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="371f2d34-c042-403f-b399-c0d26c7c035f" name="Default Changelist" comment="" />
+    <list default="true" id="371f2d34-c042-403f-b399-c0d26c7c035f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/lesson1.php" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +33,32 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="home_work" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - home_work@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - home_work@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - home_work@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="home_work: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - home_work@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
@@ -39,20 +74,46 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lessons/lesson2.php" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Open Server\OpenServer\domains\hw\view" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="header.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/view/header.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.header.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:home_work" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - home_work@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - home_work@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@24ffa6ee" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -70,6 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595161643410</updated>
       <workItem from="1595161644629" duration="28052000" />
+      <workItem from="1595261565943" duration="27457000" />
     </task>
     <servers />
   </component>
@@ -77,34 +139,90 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="353" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595176191474">
+    <state x="161" y="0" key="#Inspections" timestamp="1595494585152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="353" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595176191474" />
-    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595162073795">
+    <state x="161" y="0" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1595494585152" />
+    <state x="355" y="0" key="#PHP" timestamp="1595505154825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1595162073795" />
+    <state x="355" y="0" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1595505154825" />
+    <state x="300" y="25" width="1097" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595492528876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="300" y="25" width="1097" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595492528876" />
+    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595490895653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1595490895653" />
+    <state x="386" y="0" key="#header.php" timestamp="1595505156022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="386" y="0" key="#header.php/0.0.1536.824@0.0.1536.824" timestamp="1595505156022" />
+    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1595505274858">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595505274858" />
     <state width="374" height="289" key="DatabaseViewActions_Filter" timestamp="1595176208254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="374" height="289" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1595176208254" />
-    <state x="449" y="30" key="FileChooserDialogImpl" timestamp="1595189124984">
+    <state x="449" y="14" key="FileChooserDialogImpl" timestamp="1595497658321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="30" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595189124984" />
-    <state width="314" height="749" key="HiddenNamespacesPopup" timestamp="1595176035488">
+    <state x="449" y="14" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595497658321" />
+    <state width="997" height="180" key="GridCell.Tab.0.bottom" timestamp="1595505028021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="314" height="749" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1595176035488" />
-    <state x="38" y="0" key="SettingsEditor" timestamp="1595161650023">
+    <state width="997" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595505028021" />
+    <state width="997" height="180" key="GridCell.Tab.0.center" timestamp="1595505028021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="38" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595161650023" />
+    <state width="997" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595505028021" />
+    <state width="997" height="180" key="GridCell.Tab.0.left" timestamp="1595505028021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="997" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595505028021" />
+    <state width="997" height="180" key="GridCell.Tab.0.right" timestamp="1595505028021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="997" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595505028021" />
+    <state width="314" height="749" key="HiddenNamespacesPopup" timestamp="1595501794426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="314" height="749" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1595501794426" />
+    <state x="38" y="0" key="SettingsEditor" timestamp="1595496010846">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="38" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595496010846" />
+    <state x="354" y="28" width="810" height="786" key="StructurePopup" timestamp="1595501835368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="354" y="28" width="810" height="786" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1595501835368" />
+    <state x="161" y="13" key="Vcs.Push.Dialog.v2" timestamp="1595505234018">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="161" y="13" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595505234018" />
+    <state x="627" y="270" width="457" height="332" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1595502070554">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="627" y="270" width="457" height="332" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1595502070554" />
+    <state x="374" y="125" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1595495160624">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="374" y="125" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1595495160624" />
+    <state x="353" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1595505002229">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="353" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1595505002229" />
     <state x="316" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595192349385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="316" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1595192349385" />
+    <state x="493" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595271146471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595271146471" />
     <state x="257" y="178" key="run.anything.popup" timestamp="1595181306185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

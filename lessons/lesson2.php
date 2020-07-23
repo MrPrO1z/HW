@@ -41,7 +41,7 @@
         ' рейтингов. Тем не менее сериал стал знаковым культурным явлением начала 1990-х. Ежегодно под Сиэтлом' . '
         проходит слёт поклонников Твин Пикса</p>';
     //трогать нельзяS
-      echo '<h1 class="lesson-name">home work #1</h1>';
+    echo '<h1 class="lesson-name">home work #2</h1>';
 
     $wrapper0 = '<span class="exercise">Исходник Урока</span>';
 
@@ -50,7 +50,7 @@
     printf($content, $wrapper0);
 
     $wrapper = '<span class="exercise">1) посчитать количество повторений в строке выражения Твин Пикс</span>';
-        //считаю количество повторений строки
+    //считаю количество повторений строки
     $wrapper .= '<div><h4 class="answer">' . substr_count($mainString, 'Твин Пикс') . '</h4></div>';
 
     printf($content, $wrapper);

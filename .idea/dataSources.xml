@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="home_work" uuid="cf72bc87-8ce3-403b-ba86-e939c4110a49">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>ddd</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/home_work</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - home_work@localhost" uuid="76cc3cb6-0ee0-4ab6-9975-70d5abb1c2f1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>ddd</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/home_work?serverTimezone=UTC</jdbc-url>
+    </data-source>
+  </component>
+</project>
