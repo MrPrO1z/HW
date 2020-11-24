@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="371f2d34-c042-403f-b399-c0d26c7c035f" name="Default Changelist" comment="" />
+    <list default="true" id="371f2d34-c042-403f-b399-c0d26c7c035f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -26,11 +25,98 @@
     <expand />
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="125592522">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.compare" value="1" />
+          <entry key="git.branch.rebase" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lessons/lesson1.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/develop" />
+                <branch-info repo="$PROJECT_DIR$" source="origin/home_work" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectId" id="1euBYIDsmsOUClpVEGQHwMpNZdj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,12 +126,25 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="last_opened_file_path" value="C:/OpenServer/domains/HW-develop" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Open Server\OpenServer\domains\hw\view" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -70,52 +169,105 @@
       <option name="presentableId" value="Default" />
       <updated>1595161643410</updated>
       <workItem from="1595161644629" duration="28052000" />
+      <workItem from="1606248179019" duration="2192000" />
+      <workItem from="1606253625663" duration="317000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2509000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15570469" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4966443" visible="true" weight="0.32697946" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4986577" weight="0.329429" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5033557" side_tool="true" visible="true" weight="0.32697946" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="353" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595176191474">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="353" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595176191474" />
-    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595162073795">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1595162073795" />
-    <state width="374" height="289" key="DatabaseViewActions_Filter" timestamp="1595176208254">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="374" height="289" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1595176208254" />
-    <state x="449" y="30" key="FileChooserDialogImpl" timestamp="1595189124984">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="449" y="30" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595189124984" />
-    <state width="314" height="749" key="HiddenNamespacesPopup" timestamp="1595176035488">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="314" height="749" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1595176035488" />
-    <state x="38" y="0" key="SettingsEditor" timestamp="1595161650023">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="38" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595161650023" />
-    <state x="316" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595192349385">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="316" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1595192349385" />
-    <state x="257" y="178" key="run.anything.popup" timestamp="1595181306185">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="257" y="178" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1595181306185" />
-    <state x="161" y="0" key="scopes" timestamp="1595162028060">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="161" y="0" key="scopes/0.0.1536.824@0.0.1536.824" timestamp="1595162028060" />
-    <state x="261" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1595192360727">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="261" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595192360727" />
+    <state x="353" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="353" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" />
+    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" />
+    <state width="374" height="289" key="DatabaseViewActions_Filter" />
+    <state width="374" height="289" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" />
+    <state x="449" y="30" key="FileChooserDialogImpl" />
+    <state x="449" y="30" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" />
+    <state width="314" height="749" key="HiddenNamespacesPopup" />
+    <state width="314" height="749" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" />
+    <state x="38" y="0" key="SettingsEditor" />
+    <state x="38" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" />
+    <state x="316" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" />
+    <state x="316" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" />
+    <state x="257" y="178" key="run.anything.popup" />
+    <state x="257" y="178" key="run.anything.popup/0.0.1536.824@0.0.1536.824" />
+    <state x="161" y="0" key="scopes" />
+    <state x="161" y="0" key="scopes/0.0.1536.824@0.0.1536.824" />
+    <state x="261" y="-2" width="1009" height="1470" key="search.everywhere.popup" />
+    <state x="261" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lessons/lesson1.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
