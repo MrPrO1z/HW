@@ -1,15 +1,27 @@
-body{
+header {
+    background: darkgrey;
+    height: 100px;
+}
+body {
     background: beige;
     width: auto;
     white-space: -moz-pre-wrap;
     margin-left: 20px;
     margin-right: 20px;
 }
+footer{
+    background: darkgrey;
+    height: 100px;
+    text-align: left;
+}
+#foot_er {
+    display: flex;
+    justify-content: space-around;
+}
 h1 {
     text-align: center;
     font-size: 24px;
     color: indigo;
-
 }
 h3 {
     font-size: 50px;
@@ -18,18 +30,34 @@ h3 {
 span {
     font-size: 20px;
     color: indigo;
-
 }
-
 h4 {
     font-size: 16px;
     color: darkgray;
-
 }
 div {
-    margin: 5px;
 
 }
 .menu {
     border: 1px solid blueviolet;
+}
+.test {
+    color: darkgreen;
+}
+.wrapper {
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+.lesson-name {
+    font-style: italic;
+    text-transform: capitalize;
+}
+.exercise {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Times New Roman";
+
+}
+.answer {
+    margin-left: 15px;
 }

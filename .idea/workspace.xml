@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="371f2d34-c042-403f-b399-c0d26c7c035f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+      <change beforePath="$PROJECT_DIR$/lessons/lesson2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson2.php" afterDir="false" />
+    </list>
+>>>>>>> 4cb8751bbb1b526a6cf9d9323d22e82c9a96de70
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +26,34 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="home_work" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - home_work@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - home_work@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - home_work@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="home_work: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - home_work@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="home_work: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="categories: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -111,6 +143,9 @@
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9775d0f4-3566-467c-8dc2-dbf5bcc2f155" />
+  </component>
   <component name="ProjectId" id="1euBYIDsmsOUClpVEGQHwMpNZdj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,15 +180,22 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="C:/OpenServer/domains/HW-develop" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lessons/lesson2.php" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+>>>>>>> 4cb8751bbb1b526a6cf9d9323d22e82c9a96de70
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Open Server\OpenServer\domains\hw\view" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -165,13 +207,42 @@
         </RuleState>
       </list>
     </option>
+=======
+  <component name="RunManager" selected="PHP Script.footer.php">
+    <configuration name="footer.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/view/footer.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="header.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/view/header.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.footer.php" />
+        <item itemvalue="PHP Script.header.php" />
+      </list>
+    </recent_temporary>
+>>>>>>> 4cb8751bbb1b526a6cf9d9323d22e82c9a96de70
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:home_work" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - home_work@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - home_work@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@24ffa6ee" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -189,6 +260,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595161643410</updated>
       <workItem from="1595161644629" duration="28052000" />
+<<<<<<< HEAD
       <workItem from="1606248179019" duration="2192000" />
       <workItem from="1606253625663" duration="657000" />
     </task>
@@ -200,6 +272,25 @@
       <updated>1606254262488</updated>
     </task>
     <option name="localTasksCounter" value="2" />
+=======
+      <workItem from="1595261565943" duration="36745000" />
+    </task>
+    <task id="LOCAL-00001" summary="123123123">
+      <created>1595505294770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595505294770</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1595535394735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595535394735</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+>>>>>>> 4cb8751bbb1b526a6cf9d9323d22e82c9a96de70
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -241,6 +332,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -271,10 +363,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123123123" />
+>>>>>>> 4cb8751bbb1b526a6cf9d9323d22e82c9a96de70
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="353" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
     <state x="353" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" />
     <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser" />
@@ -307,5 +404,107 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+=======
+    <state x="161" y="0" key="#Inspections" timestamp="1595494585152">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="161" y="0" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1595494585152" />
+    <state x="355" y="0" key="#PHP" timestamp="1595505154825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="355" y="0" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1595505154825" />
+    <state x="300" y="25" width="1097" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595492528876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="300" y="25" width="1097" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595492528876" />
+    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595490895653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="443" y="24" width="656" height="786" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1595490895653" />
+    <state x="386" y="0" key="#footer.php" timestamp="1595506799177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="386" y="0" key="#footer.php/0.0.1536.824@0.0.1536.824" timestamp="1595506799177" />
+    <state x="386" y="0" key="#header.php" timestamp="1595506773645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="386" y="0" key="#header.php/0.0.1536.824@0.0.1536.824" timestamp="1595506773645" />
+    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1595535393725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595535393725" />
+    <state width="374" height="289" key="DatabaseViewActions_Filter" timestamp="1595176208254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="374" height="289" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1595176208254" />
+    <state x="449" y="14" key="FileChooserDialogImpl" timestamp="1595497658321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="14" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595497658321" />
+    <state width="997" height="180" key="GridCell.Tab.0.bottom" timestamp="1595505028021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="997" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595505028021" />
+    <state width="997" height="180" key="GridCell.Tab.0.center" timestamp="1595505028021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="997" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595505028021" />
+    <state width="997" height="180" key="GridCell.Tab.0.left" timestamp="1595505028021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="997" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595505028021" />
+    <state width="997" height="180" key="GridCell.Tab.0.right" timestamp="1595505028021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="997" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595505028021" />
+    <state width="314" height="749" key="HiddenNamespacesPopup" timestamp="1595501794426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="314" height="749" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1595501794426" />
+    <state x="38" y="0" key="SettingsEditor" timestamp="1595542693118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="38" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595542693118" />
+    <state x="354" y="28" width="810" height="786" key="StructurePopup" timestamp="1595501835368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="354" y="28" width="810" height="786" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1595501835368" />
+    <state x="161" y="13" key="Vcs.Push.Dialog.v2" timestamp="1595535401395">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="161" y="13" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595535401395" />
+    <state x="627" y="270" width="457" height="332" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1595502070554">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="627" y="270" width="457" height="332" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1595502070554" />
+    <state x="374" y="125" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1595495160624">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="374" y="125" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1595495160624" />
+    <state x="353" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1595505002229">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="353" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1595505002229" />
+    <state x="316" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595192349385">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="316" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1595192349385" />
+    <state x="493" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595271146471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595271146471" />
+    <state x="257" y="178" key="run.anything.popup" timestamp="1595181306185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="257" y="178" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1595181306185" />
+    <state x="161" y="0" key="scopes" timestamp="1595162028060">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="161" y="0" key="scopes/0.0.1536.824@0.0.1536.824" timestamp="1595162028060" />
+    <state x="261" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1595192360727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595192360727" />
+>>>>>>> 4cb8751bbb1b526a6cf9d9323d22e82c9a96de70
   </component>
 </project>
